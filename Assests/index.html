@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+
+    <!-- tailwind css -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- Daisy UI -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lexend Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+        .lexend {
+            font-family: "Lexend", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            /* Regular weight */
+            font-style: normal;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    </head>
+
+    <body>
+        <nav class="bg-white shadow-md sticky top-0 z-50 p-8 ">
+
+
+            <div class="bg-base-100 flex flex-row justify-around mt-6 ">
+                <div class="">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="">
+                            <button class=" btn bg-[#B4F461]  lexend">Donation</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="lexend">
+                    <div class="flex items-center gap-3">
+                        <img src="./logo.png" alt="" srcset="">
+
+                        <h4>Donate Bangladesh</h4>
+                    </div>
+                </div>
+                <div class="lexend">
+
+                    <div class="flex items-center gap-4">
+                        <img src="./coin.png" alt="" srcset="">
+
+                        <h4 id="main-balancee">5500  <span>BDT</span> </h4>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+
+        <section class="flex justify-center mt-20">
+            <!-- Button container -->
+            <div>
+
+                <button id="DB" class="btn bg-green-400 lexend">Donation</button>
+
+                <button id="HistoryButton" class=" btn ml-16 lexend">History</button>
+
+            </div>
+        </section>
+
+        <!-- Card holder -->
+        <main id="main-sec">
+
+            <div
+                class="flex items-center justify-center bg-gray-20 rounded-lg border-2 border-solid  w-auto max-h-fit p-6 space-x-3 m-36 lexend">
+
+                <div class="card bg-base-100 w-[32.5rem] h-[24.3rem] rounded-md relative overflow-hidden">
+                    <div class="p-0">
+                        <img class="h-full w-full object-cover" src="./feni.png" alt="">
+                    </div>
+
+                </div>
+
+
+
+                <div class="flex flex-col space-y-2 w-[32.5rem] h-[24.3rem]">
+                    <div
+                        class="w-36 h-10 bg-slate-50 p-3 rounded-lg flex flex-row  justify-center items-center space-x-1">
+                        <img class="h-4 w-4" src="./coin.png" alt="">
+
+                        <p id="first-card-balance" class="size-.5">2400 BDT</p>
+
+
+                    </div>
+
+                    <h1 class="text-xl font-semibold">Donate for Flood Relief at Feni, Bangladesh</h1>
+                    <p class="text-justify">
+                        The recent floods in Feni have caused significant damage to homes and infrastructure. Your donation will help provide essential supplies to those affected by this disaster. Every contribution, big or small, makes a difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
+                    </p>
+
+                    <input id="first-card-input" class="p-2 border-2 rounded-md w-[34rem]" type="text" name="" id=""
+                        placeholder="Write the donation ammount">
+                    <button id="b1" class=" btn btn-wide p-2 w-[34rem] bg-[#B4F461]">Donate Now</button>
+
+
+                </div>
+
+
+
+            </div>
+
+            <div
+                class="flex items-center justify-center bg-gray-20 rounded-lg border-2 border-solid  w-auto max-h-fit p-6 space-x-3 m-36 lexend">
+
+                <div class="card bg-base-100 w-[32.5rem] h-[24.3rem] rounded-md relative overflow-hidden">
+                    <div class="p-0">
+                        <img class="h-full w-full object-cover" src="./noakhali.png" alt="">
+                    </div>
+
+                </div>
+
+
+
+                <div class="flex flex-col space-y-2 w-[32.5rem] h-[24.3rem]">
+                    <div
+                        class="w-36 h-10 bg-slate-50 p-3 rounded-lg flex flex-row  justify-center items-center space-x-1">
+                        <img class="h-4 w-4" src="./coin.png" alt="">
+
+                        <p id="second-card-balance" class="size-.5">240 BDT</p>
+
+
+                    </div>
+
+                    <h1 class="text-xl font-semibold">Donate for Flood at Noakhali, Bangladesh</h1>
+                    <p class="text-justify">
+                        The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
+                        donation will help provide essential supplies and to those affected by this disaster. Every
+                        contribution, big or small, makes difference. Please join us in supporting the relief efforts
+                        and making a positive impact on the lives of those in need.
+                    </p>
+
+                    <input class="p-2 border-2 rounded-md w-[34rem]" type="text" name="" id="second-card-input"
+                        placeholder="Write the donation ammount">
+                    <button id="b2" class="btn btn-wide p-2 w-[34rem] bg-[#B4F461]">Donate Now</button>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+            <div
+                class="flex items-center justify-center bg-gray-20 rounded-lg border-2 border-solid  w-auto max-h-fit p-6 space-x-3 m-36 lexend">
+
+                <div class="card bg-base-100 w-[32.5rem] h-[24.3rem] rounded-md relative overflow-hidden">
+                    <div class="p-0">
+                        <img class="h-full w-full object-cover" src="./quota-protest.png" alt="">
+                    </div>
+
+                </div>
+
+
+
+                <div class="flex flex-col space-y-2 w-[32.5rem] h-[24.3rem]">
+                    <div
+                        class="w-36 h-10 bg-slate-50 p-3 rounded-lg flex flex-row  justify-center items-center space-x-1">
+                        <img class="h-4 w-4" src="./coin.png" alt="">
+
+                        <p id="third-card-balance" class="size-.5">24 BDT</p>
+
+
+                    </div>
+
+                    <h1 class="text-xl font-semibold">Aid for the injured in the quota movement</h1>
+                    <p class="text-justify">
+                        The quota reform movement in Bangladesh has been a significant struggle for fair and merit-based opportunities in government jobs. Students and job seekers across the country have protested against the existing quota system, demanding reforms to ensure equal access for all. This movement represents the collective voice of young people advocating for justice, transparency, and a system that values merit over privilege. Your support can help raise awareness and strengthen the cause for a fairer recruitment process, shaping a brighter future for the next generation.
+                    </p>
+
+                    <input class="p-2 border-2 rounded-md w-[34rem]" type="text" name="" id="third-card-input"
+                        placeholder="Write the donation ammount">
+                    <button id="b3" class="btn btn-wide p-2 w-[34rem] bg-[#B4F461]">Donate Now</button>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+        </main>
+
+        <div id="footer" class=" m-36 flex flex-col justify-center items-center gap-4 hidden ">
+
+            
+
+
+        </div>
+
+        <!-- Modal starts -->
+
+       
+
+        <div id="mod_1" class="hidden fixed inset-0 flex justify-center items-center backdrop-blur-sm">
+            <div class="modal-box flex flex-col justify-center items-center gap-3 ">
+              <h1 class="text-3xl font-bold">Congrates!</h1>
+              <img src="./coin.png" alt="" srcset="">
+              <p class="py-4">You have donated for humankind</p>
+              <h1 class="font-bold text-3xl">Succesfully</h1>
+            
+              <button id="mod_close" class="btn p-4 rounded-md text-xl text-center">Close Confirmation</button>
+            
+            
+            </div>
+          </div>
+
+
+        <script src="./btnclick.js"></script>
+        <script src="./utilities.js"></script>
+    </body>
+
+</html>
